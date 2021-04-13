@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nou"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCall1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:padding="15dp"
+        android:text="Alimentatie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.260" />
+
+    <Button
+        android:id="@+id/btnCall2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:padding="15dp"
+        android:text="Fitness"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.380" />
+
+    <Button
+        android:id="@+id/btnCall3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:padding="15dp"
+        android:text="Stretching"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.630" />
+
+    <Button
+        android:id="@+id/btnCall4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:padding="15dp"
+        android:text="Recuperare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750" />
+
+</android.support.constraint.ConstraintLayout>
