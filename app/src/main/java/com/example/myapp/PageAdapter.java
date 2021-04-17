@@ -19,14 +19,14 @@ public class PageAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return  new tab1();
+                return  new MicDejun();
             case 1:
-                return new tab2();
+                return new Pranz();
             case 2:
-                return new tab3();
+                return new Cina();
             case 3:
 
-                return new tab4();
+                return new Desert();
             default:
                 return null;
         }

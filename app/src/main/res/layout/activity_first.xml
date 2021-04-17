@@ -21,27 +21,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Tab1"
-            android:text="Tab1"/>
+            android:text="Mic dejun"/>
 
 
         <android.support.design.widget.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Tab2"
-            android:text="Tab2"/>
+            android:text="Pranz"/>
 
 
         <android.support.design.widget.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Tab3"
-            android:text="Tab3"/>
+            android:text="Cina"/>
 
         <android.support.design.widget.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/Tab4"
-            android:text="Tab3"/>
+            android:text="Desert"/>
 
 
 

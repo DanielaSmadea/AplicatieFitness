@@ -6,10 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class tab1 extends Fragment {
+public class MicDejun extends Fragment {
 
 
-    public tab1() {
+    public MicDejun() {
         // Required empty public constructor
     }
 
@@ -18,6 +18,6 @@ public class tab1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab1, container, false);
+        return inflater.inflate(R.layout.fragment_micdejun, container, false);
     }
 }
