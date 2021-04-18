@@ -27,13 +27,13 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#CDDC39"
         android:padding="15dp"
-        android:text="Fitness"
+        android:text="Recuperare"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.380" />
+        app:layout_constraintVertical_bias="0.750" />
 
     <Button
         android:id="@+id/btnCall3"
@@ -55,12 +55,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#CDDC39"
         android:padding="15dp"
-        android:text="Recuperare"
+        android:text="Fitness"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.750" />
+        app:layout_constraintVertical_bias="0.380" />
 
 </android.support.constraint.ConstraintLayout>

@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
-        <activity android:name=".FourthActivity"></activity>
+        <activity android:name=".Abdomen"></activity>
+        <activity android:name=".Spate" />
+        <activity android:name=".Triceps" />
+        <activity android:name=".Biceps" />
+        <activity android:name=".Umeri" />
+        <activity android:name=".Piept" />
+        <activity android:name=".Gambe" />
+        <activity android:name=".BicepsFemural" />
+        <activity android:name=".Cvadriceps" />
+        <activity android:name=".Fesieri" />
+        <activity
+            android:name=".NewActivity"
+            android:parentActivityName=".ThirdActivity" />
+        <activity
+            android:name=".row1"
+            android:parentActivityName=".SecondActivity" />
+        <activity android:name=".List2" />
+        <activity android:name=".List1" />
+        <activity android:name=".FourthActivity" />
         <activity android:name=".ThirdActivity" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".FirstActivity" />
