@@ -1,9 +1,17 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">GetFit</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello one blank fragment</string>
 
-    <string name="hello_two_blank_fragment">Hello two blank fragment</string>
-    <string name="hello_3_blank_fragment">Hello 3 blank fragment</string>
+    <string name="fesieri">Fesierii reprezintă cel mai mare și mai puternic grup muscular din corpul uman. Pe lângă faptul că sunt estetic atrăgători, fesierii controlează o gamă largă de mișcări funcționale. Fie că urci în rampă , te dai jos de pe scaun sau ridici ceva, aceste acțiuni ar fi foarte greu de realizat fără fesieri. Mai mult, având în vedere că vei avea un fesier puternic și mare, te va ajuta pentru a ridica mai greu, pentru a sări mai repede și poate juca chiar un rol în prevenirea accidentarii genunchiului, șoldului și a zonei lombare. Pe scurt, fesierii influențează fiecare aspect al vieții fizice, de la modul în care arăți și cum te simți, la capacitatea de a sări, ridica și răsuci. Este destul de sigur să spunem că fesierii sunt cei mai importanți și versatili mușchi scheletici din corp.</string>
+    <string name="fesieri2">Mușchii fesieri sunt împărțiți în trei grupe
+Gluteus Maximus
+Acesta este cel mai mare mușchi fesier și alcătuiește cea mai mare parte din fesier. Funcțiile sale primare sunt extensia șoldului și rotația externă a șoldului. Acest mușchi ajuta de asemenea la generarea sprinturilor și la sărituri.
+
+Gluteus Medius
+Acest mușchi este orientat în partea laterală a fesierilor și este în mare parte acoperit de Gluteus Maximus. Ajută în stabilizarea pelvisului, rotația șoldului și mutarea șoldului spre exterior. Mușchiul gluteus medius ajută și la rezistența genunchiului în timpul unei genuflexiuni.
+
+Gluteus Minimus
+Acest mușchi este cel mai mic dintre mușchii fesieri și cel mai ascuns dintre cei trei, fiind localizat sub mușchiul Gluteus Medius. Acest mușchi ajută la stabilitatea articulației șoldului și la stabilizarea șoldului în timp ce mergem.</string>
     <string name="hello_4_blank_fragment">Hello 4 blank fragment</string>
 </resources>

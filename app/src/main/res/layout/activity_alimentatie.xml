@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="parent"
         android:orientation="vertical"
-        tools:context=".FirstActivity">
+        tools:context=".Alimentatie">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tablayout"

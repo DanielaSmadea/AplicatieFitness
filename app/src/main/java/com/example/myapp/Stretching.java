@@ -2,29 +2,19 @@ package com.example.myapp;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.Display;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-
-public class ThirdActivity extends AppCompatActivity {
+public class Stretching extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
+        setContentView(R.layout.activity_stretching);
 
         //read data from main activity
         Intent intent = getIntent();

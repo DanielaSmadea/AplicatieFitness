@@ -4,18 +4,12 @@ import android.content.Intent;
 import android.support.design.widget.TabItem;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.TabLayout.OnTabSelectedListener;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
-import java.util.Objects;
-
-public class FirstActivity extends AppCompatActivity {
+public class Alimentatie extends AppCompatActivity {
 
     private TabLayout tablayout;
     private ViewPager viewPager;
@@ -25,16 +19,16 @@ public class FirstActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_alimentatie);
 
         Intent intent = getIntent();
+
         tablayout =(TabLayout) findViewById(R.id.tablayout);
         tab1 =(TabItem) findViewById(R.id.Tab1);
         tab2 =(TabItem) findViewById(R.id.Tab2);
         tab3 =(TabItem) findViewById(R.id.Tab3);
         tab4 =(TabItem) findViewById(R.id.Tab4);
         viewPager = findViewById(R.id.viewpager);
-
         pagerAdapter = new PageAdapter(getSupportFragmentManager(), tablayout.getTabCount());
         viewPager.setAdapter(pagerAdapter);
 
@@ -43,15 +37,14 @@ public class FirstActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
                 if(tab.getPosition() == 0){
-                    pagerAdapter.notifyDataSetChanged();
-                }
-                if(tab.getPosition() == 1) {pagerAdapter.notifyDataSetChanged();}
-                if(tab.getPosition() == 2){ pagerAdapter.notifyDataSetChanged();}
-
-                if(tab.getPosition() == 3){ pagerAdapter.notifyDataSetChanged();}
-
+                    pagerAdapter.notifyDataSetChanged(); }
+                if(tab.getPosition() == 1) {
+                    pagerAdapter.notifyDataSetChanged(); }
+                if(tab.getPosition() == 2){
+                    pagerAdapter.notifyDataSetChanged(); }
+                if(tab.getPosition() == 3){
+                    pagerAdapter.notifyDataSetChanged(); }
             }
-
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
 
@@ -62,10 +55,6 @@ public class FirstActivity extends AppCompatActivity {
 
             }
         });
-
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tablayout));
-
     }
-
-
 }

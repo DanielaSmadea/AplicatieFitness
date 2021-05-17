@@ -19,10 +19,10 @@
         <activity android:name=".BicepsFemural" />
         <activity android:name=".Cvadriceps" />
         <activity android:name=".Fesieri" />
-        <activity android:name=".FourthActivity" />
-        <activity android:name=".ThirdActivity" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".FirstActivity" />
+        <activity android:name=".Fitness" />
+        <activity android:name=".Stretching" />
+        <activity android:name=".Recuperare" />
+        <activity android:name=".Alimentatie" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,27 +1,14 @@
 package com.example.myapp;
 
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ImageSwitcher;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class SecondActivity extends AppCompatActivity  {
+public class Recuperare extends AppCompatActivity  {
 
     TextView tspate, tgenunchi, tcot, tspate2, tgenunchi2, tumar ;
 
@@ -30,7 +17,7 @@ public class SecondActivity extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_recuperare);
 
         //read data from main activity
         Intent intent =  getIntent();

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //the first activity name
-                Intent intent = new Intent(getApplicationContext(),FirstActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Alimentatie.class);
 
                 startActivity(intent);
 
@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //the second activity name
-                Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+                //the 4 activity name
+                Intent intent = new Intent(getApplicationContext(), Recuperare.class);
 
                 startActivity(intent);
 
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //the first activity name
-                Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
+                //the 3 activity name
+                Intent intent = new Intent(getApplicationContext(), Stretching.class);
 
                 startActivity(intent);
 
@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //the first activity name
-                Intent intent = new Intent(getApplicationContext(),FourthActivity.class);
+                //the 2 activity name
+                Intent intent = new Intent(getApplicationContext(), Fitness.class);
 
                 startActivity(intent);
 

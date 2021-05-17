@@ -4,17 +4,16 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
-public class FourthActivity extends AppCompatActivity {
+public class Fitness extends AppCompatActivity {
     Button fesieri, cvadriceps, bicepsfemural, gambe , piept, umeri, biceps, triceps, spate, abdomen;
     ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fourth);
+        setContentView(R.layout.activity_fitness);
 
         //read data from Fourth activity
         Intent intent =  getIntent();
